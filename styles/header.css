@@ -1,0 +1,48 @@
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color:#1b034e;
+  color:#ffffff;
+  align-items: center;
+  height: 100px;
+  justify-content: space-around;
+
+}
+.brand-name h2{
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 25px;
+  width: 96px;
+  
+}
+
+.navlink ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  
+  
+}
+.navlink ul li {
+ padding-left: 15px; 
+ font-family: inter;
+ font-weight: 400;
+ font-size: 18px;
+}
+.navlink a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header-button{
+  border: 1px solid #ffffff;
+  padding: 5px 25px;
+  border-radius: 16px;
+  background: #1b034e;
+  font-size: 10px;
+  font-family: 'Inter';
+  font-weight: 500;
+  color: #ffff;
+  display: flex;
+}

@@ -1,0 +1,92 @@
+/* home section */
+.first-section{
+  background-color: #1b034e;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.first-content{
+  position: static;
+  display: flex;
+  vertical-align: middle;
+}
+.first-content{
+  width: 761px;
+  height: 345px;
+}
+.first-content img{
+  position: absolute;
+  width: 761px;
+  height: 345px;
+  background-size:cover;
+  border-radius: 45px;
+  opacity: 30%;
+} 
+.first-title{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* offer heading */
+.offer{
+  background-color: #1b034e;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.offer h2{
+  font-family: inter;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+  border-bottom: 1px solid;
+  padding-bottom: 6px;
+}
+
+
+/* offer card section */
+.card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1b034e;
+  width: 100%;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-right: 4px;
+}
+.card img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.card img:hover{
+  border: 2px solid rgb(30, 30, 219);
+}
+
+.card h3{
+  width: 200px;
+  text-align: center;
+  font-family: inter;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}  
+.card p{
+  width: 200px;
+  text-align: center;
+  color: white;
+  font-size: 11px;
+  font-family: inter;
+  padding-top: 11px;
+}
+
+
+
+
