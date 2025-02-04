@@ -1,0 +1,40 @@
+/* footer section */
+.footer-section{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding-bottom: 300px;
+}
+.footer-box{
+  width: 1000px;
+  background-color: #38265e;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+.footer-box p{
+  font-family: inter;
+  font-weight: 400;
+  font-size: 22px;
+  padding: 25px;
+}
+.email-enter{
+  padding: 15px 300px;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: #38265e;
+  margin-bottom: 10px;
+  
+  
+}
+.email-enter input{
+  background:transparent;
+  border: 0;
+  text-align: center;
+  border: none;
+  color: white;
+}
